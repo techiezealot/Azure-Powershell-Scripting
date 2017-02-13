@@ -14,7 +14,7 @@ $appssubprefix = "0.0.0.0/00"
 $gwsubprefix = "0.0.0.0/00"
 $gwname = "insert gateway name"
 $gwipname = "insert gateway ip name"
-$gwipconfname = "uinserty gateway configuration name"
+$gwipconfname = "insert gateway configuration name"
 
 ##Create subnet
 $gwsub = New-AzureRmVirtualNetworkSubnetConfig -Name $gwsubname -AddressPrefix $gwsubprefix
